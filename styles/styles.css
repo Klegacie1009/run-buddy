@@ -12,7 +12,7 @@ body {
 
  /* apply styles to <header> */
 header {
-  padding: 20px 35px;
+  padding: 48px 35px;
   background-color: #39a6b2;
 
 }
@@ -46,6 +46,7 @@ header nav ul li a {
   font-size: 22px;
 }
 
+
 footer {
   background: #fce138;
   width: 100%;
@@ -60,7 +61,7 @@ footer h2 {
 }
 
 footer div {
-  float: right;
+  float: inherit;
   line-height: 1.5;
   text-align: left;
 }
