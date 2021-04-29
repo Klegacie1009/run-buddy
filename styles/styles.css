@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -11,23 +12,25 @@ body {
 
 
  /* apply styles to <header> */
-header {
-  padding: 45px 30px;
+ header {
+  m;
+  width: 1024%;
+  border: 800px;
+  padding: 45px 35px;
   background-color: #39a6b2;
-
 }
 
 header h1 {
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 36px;
   color: #fce138;
   margin: 0;
-  display: inline;
 }
 
 header a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #fce138;
+
 }
 
 
@@ -47,17 +50,55 @@ header nav ul li a {
 }
 
 header h3 {
+  font-weight: normal;
+  font-size: 20px;
   color: #fce138;
+  margin: 0;
 }
 
+header h3 a {
+  font-weight: lighter;
+  font-size: 15px;
+  color: #fce138;
+  margin: 0;
+}
 
+section {
+    padding: 60px;
+    background-image: url("../hero-bg.jpeg");
+  }
+ 
+/* Hero Style Start */
+.hero {
+  background-image: url("../images/hero-bg.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+/* Hero Style End */
 
-
+.hero-form {
+  border: 3px solid #024e76;
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
+  position: absolute;
+  bottom: 120px;
+  right: 140px;
+}
+.hero-form h3 {
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
+}
 
 footer {
   background: #fce138;
   width: 100%;
-  padding: 40px 35px;
+  padding: 35px 35px;
 }
 
 footer h2 {
@@ -68,6 +109,7 @@ footer h2 {
 }
 
 footer div {
+  flex-shrink: inherit;
   float: right; 
   line-height: 1.5;
   text-align: left;
@@ -76,10 +118,3 @@ footer div {
 footer a {
   color: #024e76;
 }
-
-
-
-
-
-
-
