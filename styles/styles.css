@@ -13,11 +13,21 @@ body {
 
  /* apply styles to <header> */
  header {
-  m;
   width: 1024%;
   border: 800px;
-  padding: 45px 35px;
+  padding: 20px 35px;
   background-color: #39a6b2;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: url("../hero-bg.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+
 }
 
 header h1 {
@@ -35,18 +45,19 @@ header a {
 
 
 header nav {
-  float: right;
   margin: 7px 0;
 }
 
 header nav ul li {
   display: inline;
+  
 }
 
 header nav ul li a {
-  margin: 0 25px;
+  padding: 10px 15px;
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header h3 {
@@ -60,21 +71,27 @@ header h3 a {
   font-weight: lighter;
   font-size: 15px;
   color: #fce138;
-  margin: 0;
+  margin: 0px;
 }
 
 section {
-    padding: 60px;
-    background-image: url("../hero-bg.jpeg");
-  }
+  padding: 60px;
+  background-image: url("../hero-bg.jpeg");
+}
  
 /* Hero Style Start */
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("../hero-bg.jpeg");
   height: 600px;
   background-size: cover;
   background-position: center;
   position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
 }
 /* Hero Style End */
 
@@ -85,9 +102,11 @@ section {
   width: 500px;
   color: #024e76;
   position: absolute;
-  bottom: 0px; 
-  right: 0px;
+  bottom: 120px;
+  right: 140px;
+
 }
+
 .hero-form h3 {
   background-color: #fce138;
   padding: 20px;
@@ -118,3 +137,4 @@ footer div {
 footer a {
   color: #024e76;
 }
+
