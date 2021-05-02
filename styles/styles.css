@@ -68,6 +68,15 @@ header nav ul li a {
   border-color: #fce138;
   display: inline-block;
 }
+.steps h2 {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 200px 20px 100px;
+  border-bottom: 3px solid;
+  border-color: #39a6b2;
+}
+
 .intro p {
   line-height: 1.7px;
   color: #39a6b2;
@@ -75,7 +84,28 @@ header nav ul li a {
   font-size: 20px;
   margin: 0 auto;
 }
+.steps div {
+  margin-bottom: 80px;
+}
 
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+} 
+
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+}
+
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+.steps span {
+  font-size: 38px;
+}
 header h3 {
   font-weight: normal;
   font-size: 20px;
@@ -93,6 +123,10 @@ header h3 a {
 section {
   padding: 60px;
   background-image: url("../hero-bg.jpeg");
+}
+.steps {
+  text-align: center;
+  background-color: #fce138;
 }
  
 /* Hero Style Start */
